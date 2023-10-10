@@ -7,4 +7,5 @@
         This is the causality calculator.
         \nThis application will calculate the estimated karmaic events and shows the result.
     </string>
+    <string name="btn_main">Stop the karmaic wheel</string>
 </resources>

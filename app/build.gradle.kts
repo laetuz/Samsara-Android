@@ -63,6 +63,8 @@ dependencies {
     //navigation
     implementation ("androidx.navigation:navigation-compose:2.7.4")
     implementation ("androidx.navigation:navigation-runtime-ktx:2.7.4")
+    // Splash screen Api
+    implementation("androidx.core:core-splashscreen:1.0.1")
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)

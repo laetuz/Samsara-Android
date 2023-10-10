@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <style name="Theme.Samsara" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Samsara.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#000000</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/dharma_wheel</item>
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreen</item>
+    </style>
 </resources>
